@@ -1,0 +1,5 @@
+<h1>Ejemplo de uso de estrategia Default / OnPush</h1>
+<!-- Estrategia OnPush: solo renderiza la primera vez y el resto de cambios no lo refleja en la vista(HTML)-->
+<p>Segundos: {{segundos}}s</p>
+<!-- boton para detectar los cambios y mostrarlo en la vista (no escucha los cambios de forma permanente, solo toma el cambio actual) -->
+<button (click)="actualizarSegundos()">Actualizar segundos</button>
